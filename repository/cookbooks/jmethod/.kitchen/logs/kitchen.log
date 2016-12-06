@@ -1,0 +1,3 @@
+I, [2016-12-06T06:38:51.124174 #3147]  INFO -- Kitchen: -----> Starting Kitchen (v1.13.2)
+I, [2016-12-06T06:38:53.035768 #3147]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+I, [2016-12-06T06:38:53.310237 #3147]  INFO -- Kitchen: -----> Kitchen is finished. (0m2.18s)

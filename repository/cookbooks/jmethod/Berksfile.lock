@@ -1,0 +1,7 @@
+DEPENDENCIES
+  even_odd_hostname
+    path: .
+    metadata: true
+
+GRAPH
+  even_odd_hostname (0.1.0)

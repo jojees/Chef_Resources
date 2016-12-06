@@ -1,0 +1,8 @@
+maintainer       "Joji Vithayathil Johny"
+maintainer_email "joji@jojees.net"
+license          "Apache"
+description      "Identify Even or Odd Hostname"
+long_description "Simple cookbook to identify if the hostname ends with even or odd numbers..."
+version          "0.1.0"
+supports         "ubuntu"
+name             "even_odd_hostname"

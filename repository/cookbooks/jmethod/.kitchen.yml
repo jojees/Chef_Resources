@@ -1,0 +1,37 @@
+---
+driver:
+  name: docker
+  binary: docker
+  use_sudo: false
+
+provisioner:
+  name: chef_zero
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: ubuntu-14.04
+    driver_config:
+      volume: <%=ENV['PWD']%>:/tmp/workspace
+    attributes:
+      ci_build: <%=ENV["CI"]%>
+      workspace: /tmp/workspace
+
+#  - name: ubuntu-14.04
+#    driver:
+#      name: ssh
+#      hostname: 192.168.99.101
+#      username: root
+#      password: ubuntu-password
+
+suites:
+  - name: default
+    run_list:
+      - recipe[even_odd_hostname::default]
+    verifier:
+      inspec_tests:
+        - test/recipes
+      chefspec_tests:
+        - spec/unit
+    attributes:

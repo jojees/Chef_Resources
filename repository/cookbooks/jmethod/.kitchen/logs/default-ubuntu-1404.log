@@ -1,0 +1,3 @@
+I, [2016-12-06T06:38:53.036313 #3147]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+I, [2016-12-06T06:38:53.207047 #3147]  INFO -- default-ubuntu-1404: Use `/opt/chef_workstation/learn-chef/cookbooks/even_odd_hostname/test/recipes/default` for testing
+I, [2016-12-06T06:38:53.308935 #3147]  INFO -- default-ubuntu-1404: Finished verifying <default-ubuntu-1404> (0m0.26s).
