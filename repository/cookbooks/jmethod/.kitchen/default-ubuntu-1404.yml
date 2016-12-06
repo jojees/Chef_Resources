@@ -1,8 +1,0 @@
----
-username: kitchen
-ssh_key: "/opt/chef_workstation/learn-chef/cookbooks/even_odd_hostname/.kitchen/docker_id_rsa"
-image_id: 9efce96e99f1
-container_id: e1f0668a42b2946177dfc3335178f4797d5a4cbb28a7e2329f8e78f81e006214
-hostname: 192.168.99.100
-port: 32784
-last_action: verify
